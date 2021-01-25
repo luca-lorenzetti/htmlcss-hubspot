@@ -26,6 +26,52 @@ body{
     border-radius: 12px;
     box-shadow: 0px 0px 8px rgba(166,166,166,0.4);
     background-color: #fff;
+    
+}
+.card img{
+    display: block;
+    padding: 1vw;
+    height: 7vw;
+    margin: 2vw auto;
+}
+.inner-card{
+    width: calc( calc(100% / 3) - 40px );
+    line-height: 1.5vw;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 3vw;
+    padding: 1.5vw
+}
+.inner-card p{
+    width: 88%;
+    margin: 1vw auto;
+    margin-bottom: 3vw;
+}
+.inner-card h3{
+    margin: 2vw 0;
+    font-weight: 900;
+}
+.inner-card h4{
+    margin: 1vw 0;
+    width: 80%;
+    font-weight: 900;
+}
+.inner-card hr{
+    text-align: center;
+    margin: 1vw auto;
+    width: 88%;
+}
+
+.inner-card li{
+    display: block;
+    text-align: left;
+    line-height: 20px;
+}
+.inner-card ul{
+margin-bottom: 3vw;
+}
+.inner-card:nth-child(2){
+    margin: 3vw 60px;
 }
 .container-70{
     width: 70%;
@@ -48,7 +94,13 @@ a{
     text-decoration: none;
     color:  #33475b;
 }
-
+hr{
+    background-color: grey;
+    margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
 .float-left{
     float: left;
 }
@@ -180,13 +232,7 @@ section{
     width: 30%;
     text-align: center;
 }
-.left-hub-spot img{
-    display: block;
-    padding: 1vw;
-    height: 7vw;
-    margin: 2vw auto;
 
-}
 .right-hub-spot{
     width: 60%;
     margin: 2vw auto;
@@ -211,13 +257,8 @@ h4{
     font-weight: 900;
     width: 30%;
 } 
-hr{
+.right-hub-spot hr{
+    vertical-align: middle;
     display: inline-block;
     width: 63%;
-    margin: 0 auto;
-    border-width: 1px;
-    border-style: solid;
-    border-color: grey;
-    vertical-align: middle;
-    background-color: grey;;
 }
