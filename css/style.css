@@ -19,13 +19,22 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: #33475b;
+    background-color: #f5f8fa;
+    font-weight: 500;
 }
-
+.card{
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(166,166,166,0.4);
+    background-color: #fff;
+}
 .container-70{
     width: 70%;
     margin: 0 auto;
 }
-
+.orange{
+    color: #FE775A;
+    margin-right: 1vw;
+}
 ul{
     list-style: none;
     line-height: 5vw;
@@ -134,7 +143,6 @@ header nav{
 .main-content-header *{
     display: block;
     padding: 1vw 0;
-    font-weight: 500;
 }
 .main-content-header a{
     margin: 0;
@@ -145,4 +153,71 @@ header nav{
 }
 .main-content-header :last-child{
     font-size: 0.8vw;
+}
+section{
+    background-color: #f5f8fa;
+}
+.powerful-alone{
+    width: 70%;
+    margin: 3vw auto;
+    text-align: center;
+}
+.powerful-alone img{
+    width: 28%;
+}
+.powerful-alone h2{
+    margin-bottom: 1vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.powerful-alone p{
+    line-height: 1.5vw;
+}
+.free-hub-spot{
+    padding: 1.5vw 0;
+}
+.left-hub-spot{
+    width: 30%;
+    text-align: center;
+}
+.left-hub-spot img{
+    display: block;
+    padding: 1vw;
+    height: 7vw;
+    margin: 2vw auto;
+
+}
+.right-hub-spot{
+    width: 60%;
+    margin: 2vw auto;
+    height: 10vw;
+}
+.right-hub-spot li{
+    margin-right: 1vw;
+}
+.right-hub-spot p{
+    line-height: 1.5vw;
+    width: 85%;
+}
+h3{
+    margin-bottom: 1vw;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+h4{
+    display: inline-block;
+    margin-top: 1vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    width: 30%;
+} 
+hr{
+    display: inline-block;
+    width: 63%;
+    margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    vertical-align: middle;
+    background-color: grey;;
 }
