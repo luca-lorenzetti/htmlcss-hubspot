@@ -15,11 +15,76 @@
 /*********************/
 
 
-.container{
+/* Regole generali di base */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+}
+
+.container-70{
     width: 70%;
     margin: 0 auto;
 }
 
+ul{
+    list-style: none;
+    line-height: 5vw;
+    font-weight: 500;
+    font-size: 0.9vw;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:  #33475b;
+}
+
+.float-left{
+    float: left;
+}
+
+
+.text-align-right{
+    text-align: right;
+}
+
+.button{
+    background-color: #FE775A;
+    text-align: center;
+    color: white;
+    padding: 0.8vw 0.8vw;
+    border-radius: 6px;
+    margin: 0vw 0.7vw;
+}
+
+/* ************************ */
+
 header{
     background-color: #fff;
+}
+header nav{
+    width: calc(100% / 2);
+}
+
+.first-header-row{
+    background-color: #F4F9FD;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.left-nav li{
+    padding: 0vw 1vw;
+
+}
+.left-nav li:first-child a:first-child{
+    padding: 0.1vw 1vw;
+    border-right:  0.11vw solid grey;
+}
+
+.right-nav li{
+}
+#search{
+    margin-right: 0.4vw;
+    color: #00a4bd;
 }
