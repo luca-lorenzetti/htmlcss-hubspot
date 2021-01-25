@@ -77,6 +77,7 @@ margin-bottom: 3vw;
     width: 70%;
     margin: 0 auto;
 }
+
 .orange{
     color: #FE775A;
     margin-right: 1vw;
@@ -261,4 +262,53 @@ h4{
     vertical-align: middle;
     display: inline-block;
     width: 63%;
+}
+#table-section{
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    text-align: center;
+    color: #fff;
+    padding: 3vw;
+    line-height: 1.4vw;
+}
+#table-section h3:nth-child(1){
+    font-size: 1.5vw;
+    width: 90%;
+    margin: 2vw auto;
+}
+#table-section p:nth-child(1){
+    width: 100%;
+    margin: 2vw auto;
+}
+.table{
+    margin-top: 5vw;
+}
+
+.td-table{
+    width: calc( calc(100% / 4));
+    border-bottom: 1px solid white;
+    padding: 1vw;
+}
+.tr-table:nth-child(2) .td-table{
+    border-bottom: none;
+}
+.td-table:not(:last-child){
+    border-right: 1px solid white;
+}
+
+.td-table:last-child{
+    border-right: 1px solid white;
+}
+.td-table > img{
+    height: 1.8vw;
+}
+.td-table span{
+    display: block;
+}
+.td-table span:last-child{
+    font-size: 0.6vw;
+}
+.num{
+    font-size: 2vw;
+    margin: 1vw;
+    font-weight: bold;
 }
