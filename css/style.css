@@ -88,3 +88,9 @@ header nav{
     margin-right: 0.4vw;
     color: #00a4bd;
 }
+
+#login{
+    color: #FE775A;
+    background-color: transparent;
+    border: 1px solid #FE775A;
+}
