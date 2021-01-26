@@ -294,7 +294,6 @@ h4{
     border-right: 1px solid white;
 }
 
-
 .td-table > img{
     height: 1.8vw;
 }
@@ -340,6 +339,7 @@ h4{
 }
 .right-f-brands-row img{
     width:100%;
+    vertical-align: middle;
 }
 .second-brands-row{
     width: 100%;
@@ -373,4 +373,87 @@ h4{
     width: 30%;
     float: right;
     height: 80%;
+}
+
+footer{
+    background-color: #2d3e50;
+    width: 100%;
+    height: 40vw;
+    color: #cbd6e2;
+}
+footer > div:first-child{
+    height: 100%;
+}
+.f-row-footer{
+    height: 60%;
+    width: 100%;
+    padding: 2.5vw 0;
+}
+.f-row-footer > ul{
+    width: calc( calc( 100% / 4 ) -2vw) ;
+    display: block;
+}
+footer .f-row-footer li{
+    text-align: left;
+    width: 100%;
+    margin: 0vw 3vw;
+    display: block;
+}
+.f-row-footer li:first-child{
+    line-height: 3vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+footer .f-row-footer li:not(:first-child){
+    display: block;
+    height: 1%;
+    line-height: 2vw;
+    font-weight: normal;
+    font-size: 0.7vw;
+}
+.f-row-footer li > a{
+    background-color: #cbd6e2;
+    display: block;
+    color: black;
+    margin-left: 0;
+    margin-top: 0.6vw;
+    width: 65%;
+    padding: 0.03vw 0.1vw;
+    font-weight: normal;
+}
+
+.f-row-footer li:last-child{
+    display: inline-block;
+}
+
+.f-row-footer li:last-child > ul > li{
+    width: calc(100%/8);
+    margin: 0;
+    display: inline-block;
+}
+#languages-list{
+    text-align: center;
+    display: block;
+}
+#languages-list a{
+    height: 40%;
+    width: 50%;
+    color: #cbd6e2;
+    text-align: center;
+    margin: 0.5vw;
+} 
+.footer hr{
+    width: 100%;
+}
+
+.left-s-row-footer{
+    padding: 2vw 0;
+}
+
+.right-s-row-footer{
+    float: right;
+}
+.right-s-row-footer a{
+    margin-right: 1vw;
+    font-size: 1.5vw;
 }
