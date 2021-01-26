@@ -26,7 +26,6 @@ body{
     border-radius: 12px;
     box-shadow: 0px 0px 8px rgba(166,166,166,0.4);
     background-color: #fff;
-    
 }
 .card img{
     display: block;
@@ -295,9 +294,7 @@ h4{
     border-right: 1px solid white;
 }
 
-.td-table:last-child{
-    border-right: 1px solid white;
-}
+
 .td-table > img{
     height: 1.8vw;
 }
@@ -311,4 +308,29 @@ h4{
     font-size: 2vw;
     margin: 1vw;
     font-weight: bold;
+}
+
+.first-brands-row{
+    text-align: left;
+    padding: 1vw;
+}
+.left-f-brands-row > span{
+    font-size: 3vw;
+    font-weight: bold;
+}
+.left-f-brands-row{
+    width: 18%;
+    line-height: 1.5vw;
+}
+
+.right-f-brands-row{
+    width: 82%;
+    padding-left: 30%;
+}
+.right-f-brands-row li{
+    width: 20%;
+    margin: 0vw 0.5vw;
+}
+.right-f-brands-row img{
+    width:100%;
 }
