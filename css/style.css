@@ -22,6 +22,9 @@ body{
     background-color: #f5f8fa;
     font-weight: 500;
 }
+p{
+    line-height: 1.5vw; 
+}
 .card{
     border-radius: 12px;
     box-shadow: 0px 0px 8px rgba(166,166,166,0.4);
@@ -34,7 +37,7 @@ body{
     margin: 2vw auto;
 }
 .inner-card{
-    width: calc( calc(100% / 3) - 40px );
+    width: calc( (100% - 120px) / 3 );
     line-height: 1.5vw;
     background-color: #fff;
     text-align: center;
@@ -85,7 +88,7 @@ ul{
     list-style: none;
     line-height: 5vw;
     font-weight: 500;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
 }
 ul li{
     display: inline-block;
@@ -114,7 +117,7 @@ hr{
     background-color: #FE775A;
     text-align: center;
     color: white;
-    padding: 0.8vw 0.8vw;
+    padding: 0.7vw 0.7vw;
     border-radius: 6px;
     margin: 0vw 0.7vw;
 }
@@ -156,10 +159,11 @@ header nav{
 
 #logo{
     width: 50%;
-    height: 5vw;
-    line-height: 5vw;
-    vertical-align: middle;
+    line-height: 6vw;
+    height: 2vw;
+
 }
+
 #navbar-second-row-header i{
     padding: 0vw 0.9vw;
 }
@@ -169,9 +173,9 @@ header nav{
     background-color: #FFF4EF;
     background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
-    background-position: 0 100%;
-    background-size: cover;
-    height: 50vw;
+    background-position: 100% 0%;
+    background-size: contain;
+    height: 40vw;
 }
 
 .bottom-row-header{
@@ -179,7 +183,7 @@ header nav{
     bottom: 0;
     width: 100%;
     background-color: #AFEBE4;
-    height: 6vw;
+    height: 5vw;
     border-top: 3px;
     border-left: 0;
     border-right: 0;
@@ -222,9 +226,7 @@ section{
     font-size: 1.8vw;
     font-weight: bold;
 }
-.powerful-alone p{
-    line-height: 1.5vw;
-}
+
 .free-hub-spot{
     padding: 1.5vw 0;
 }
@@ -242,7 +244,6 @@ section{
     margin-right: 1vw;
 }
 .right-hub-spot p{
-    line-height: 1.5vw;
     width: 85%;
 }
 h3{
@@ -287,6 +288,13 @@ h4{
     border-bottom: 1px solid white;
     padding: 1vw;
 }
+.tr-table .num:not(.not-plus)::after{
+    content: "+";
+    font-size: 1.3vw;
+    font-weight: lighter;
+    vertical-align: top;
+    margin-left: 0.2vw;
+}
 .tr-table:nth-child(2) .td-table{
     border-bottom: none;
 }
@@ -308,15 +316,12 @@ h4{
     margin: 1vw;
     font-weight: bold;
 }
-.brands-section{
-    height: 40vw;
-}
 
 .first-brands-row{
     text-align: left;
     width: 80%;
     margin: 3vw auto;
-    height: 30%
+    height: 25%
 }
 .left-f-brands-row span{
     font-size: 2vw;
@@ -331,7 +336,7 @@ h4{
 
 .right-f-brands-row{
     width: 80%;
-    text-align: right;
+    margin-left: 40%;
 }
 .right-f-brands-row li{
     width: 16%;
@@ -342,8 +347,9 @@ h4{
     vertical-align: middle;
 }
 .second-brands-row{
+    padding: 1vw 0 2.8vw 0;
     width: 100%;
-    height: 70%;
+    height: 75%;
 }
 .left-s-brands-row{
     width: 45%;
@@ -356,6 +362,7 @@ h4{
     font-weight: bold;
     width: 85%;
     line-height: 2vw;
+    margin-top: 2.5vw;
 }
 .left-s-brands-row > *:not(:first-child){
     margin-top: 2vw;
@@ -365,20 +372,22 @@ h4{
     width: 35%;
     margin-left: 0;
 }
-
-.right-s-brands-row{
-    background-image: url("../img/woman.webp");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 30%;
-    float: right;
-    height: 80%;
+.left-s-brands-row > p:last-child{
+    font-size: 0.8vw;
 }
+.right-s-brands-row {
+    float: right;
 
+    height: 100%;
+}
+.right-s-brands-row img{
+    width: 17vw;
+    margin-right: 2vw;
+}
 footer{
     background-color: #2d3e50;
     width: 100%;
-    height: 40vw;
+    height: auto;
     color: #cbd6e2;
 }
 footer > div:first-child{
@@ -431,15 +440,17 @@ footer .f-row-footer li:not(:first-child){
     margin: 0;
     display: inline-block;
 }
+.s-row-footer{
+    height: 4vw;
+}
 #languages-list{
     text-align: center;
     display: block;
 }
+
 #languages-list a{
-    height: 40%;
     width: 50%;
     color: #cbd6e2;
-    text-align: center;
     margin: 0.5vw;
 } 
 .footer hr{
