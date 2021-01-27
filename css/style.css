@@ -299,7 +299,7 @@ h4{
     border-bottom: 1px solid white;
     padding: 1vw;
 }
-.tr-table .num:not(.not-plus)::after{
+.tr-table .num::after{
     content: "+";
     font-size: 1.3vw;
     font-weight: lighter;
