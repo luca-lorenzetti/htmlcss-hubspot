@@ -1,9 +1,10 @@
 /***** CSS RESET *****/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /**********************/
 
 /***** CLEARFIX *****/
@@ -12,112 +13,128 @@
     clear: both;
     display: table;
 }
+
 /*********************/
 
 
 /* Regole generali di base */
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     color: #33475b;
     background-color: #f5f8fa;
     font-weight: 500;
 }
-p{
-    line-height: 1.5vw; 
+
+p {
+    line-height: 1.5vw;
 }
 
-.card{
+.card {
     border-radius: 12px;
-    box-shadow: 0px 0px 8px rgba(166,166,166,0.4);
+    box-shadow: 0px 0px 8px rgba(166, 166, 166, 0.4);
     background-color: #fff;
 }
-.card img{
+
+.card img {
     display: block;
     padding: 1vw;
     height: 7vw;
     margin: 2vw auto;
 }
-.inner-card{
-    width: calc( (100% - 120px) / 3 );
+
+.inner-card {
+    width: calc((100% - 120px) / 3);
     line-height: 1.5vw;
     background-color: #fff;
     text-align: center;
     margin-top: 3vw;
     padding: 1.5vw
 }
-.inner-card p{
+
+.inner-card p {
     width: 88%;
     margin: 1vw auto;
     margin-bottom: 3vw;
 }
-.inner-card h3{
+
+.inner-card h3 {
     margin: 2vw 0;
     font-weight: 900;
 }
-.inner-card h4{
+
+.inner-card h4 {
     margin: 1vw 0;
     width: 80%;
     font-weight: 900;
 }
-.inner-card hr{
+
+.inner-card hr {
     text-align: center;
     margin: 1vw auto;
     width: 88%;
 }
 
-.inner-card li{
+.inner-card li {
     display: block;
     text-align: left;
     line-height: 20px;
 }
-.inner-card ul{
-margin-bottom: 3vw;
+
+.inner-card ul {
+    margin-bottom: 3vw;
 }
-.inner-card:nth-child(2){
+
+.inner-card:nth-child(2) {
     margin: 3vw 60px;
 }
-.container-70{
+
+.container-70 {
     width: 70%;
     margin: 0 auto;
 }
 
-.orange{
+.orange {
     color: #FE775A;
     margin-right: 1vw;
 }
-ul{
+
+ul {
     list-style: none;
     line-height: 5vw;
     font-weight: 500;
     font-size: 0.8vw;
 }
-ul li{
+
+ul li {
     display: inline-block;
 }
-a{
+
+a {
     text-decoration: none;
-    color:  #33475b;
+    color: #33475b;
 }
-hr{
+
+hr {
     background-color: grey;
     margin: 0 auto;
     border-width: 1px;
     border-style: solid;
     border-color: grey;
 }
-.float-left{
+
+.float-left {
     float: left;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
-.text-align-right{
+.text-align-right {
     text-align: right;
 }
 
-.button{
+.button {
     background-color: #FE775A;
     text-align: center;
     color: white;
@@ -128,51 +145,53 @@ hr{
 
 /* ************************ */
 
-header{
+header {
     background-color: #fff;
 }
-header nav{
+
+header nav {
     width: calc(100% / 2);
 }
 
-.first-header-row{
+.first-header-row {
     background-color: #F4F9FD;
     width: 100%;
     border: 1px solid black;
 }
 
-.left-nav li{
+.left-nav li {
     padding: 0 1vw 0 0;
 
 }
-.left-nav li:first-child a:first-child{
+
+.left-nav li:first-child a:first-child {
     padding: 0.1vw 1vw 0.1vw 0;
-    border-right:  0.11vw solid grey;
+    border-right: 0.11vw solid grey;
 }
 
-#search{
+#search {
     margin-right: 0.4vw;
     color: #00a4bd;
 }
 
-#login{
+#login {
     color: #FE775A;
     background-color: transparent;
     border: 1px solid #FE775A;
 }
 
-#logo{
+#logo {
     width: 50%;
     line-height: 6vw;
     height: 2vw;
 
 }
 
-#navbar-second-row-header i{
+#navbar-second-row-header i {
     padding: 0vw 0.9vw;
 }
 
-.third-header-row{
+.third-header-row {
     position: relative;
     background-color: #FFF4EF;
     background-image: url("../img/jumbotron.png");
@@ -182,7 +201,7 @@ header nav{
     height: 40vw;
 }
 
-.bottom-row-header{
+.bottom-row-header {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -195,241 +214,287 @@ header nav{
     border-style: solid;
     border-color: black;
 }
-.main-content-header{
+
+.main-content-header {
     padding-top: 8%;
     width: 48%;
     height: auto;
 }
-.main-content-header *{
+
+.main-content-header * {
     display: block;
     padding: 1vw 0;
 }
-.main-content-header a{
+
+.main-content-header a {
     margin: 0;
     width: 36%;
 }
-.main-content-header h1{
+
+.main-content-header h1 {
     font-size: 3vw;
 }
-.main-content-header :last-child{
+
+.main-content-header :last-child {
     font-size: 0.8vw;
 }
-section{
+
+section {
     background-color: #f5f8fa;
 }
-.powerful-alone{
+
+.powerful-alone {
     width: 70%;
     margin: 3vw auto;
     text-align: center;
 }
-.powerful-alone img{
+
+.powerful-alone img {
     width: 28%;
 }
-.powerful-alone h2{
+
+.powerful-alone h2 {
     margin-bottom: 1vw;
     font-size: 1.8vw;
     font-weight: bold;
 }
 
-.free-hub-spot{
+.free-hub-spot {
     padding: 1.5vw 0;
 }
-.left-hub-spot{
+
+.left-hub-spot {
     width: 30%;
     text-align: center;
 }
 
 
-.right-hub-spot{
+.right-hub-spot {
     width: 60%;
     margin: 2vw auto;
     height: 10vw;
 }
-.right-hub-spot li{
+
+.right-hub-spot li {
     margin-right: 1vw;
     text-align: left;
 }
-.right-hub-spot i{
+
+.right-hub-spot i {
     margin-right: 0.5vw;
-    
+
 }
-.right-hub-spot p{
+
+.right-hub-spot p {
     width: 85%;
 }
-h3{
+
+h3 {
     margin-bottom: 1vw;
     text-transform: capitalize;
     font-weight: bold;
 }
-h4{
+
+h4 {
     display: inline-block;
     margin-top: 1vw;
     text-transform: uppercase;
     font-weight: 900;
     width: 30%;
-} 
-.right-hub-spot hr{
+}
+
+.right-hub-spot hr {
     vertical-align: middle;
     display: inline-block;
     width: 63%;
 }
-#table-section{
-    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+
+#table-section {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
     text-align: center;
     color: #fff;
     padding: 3vw;
     line-height: 1.4vw;
 }
-#table-section h3:nth-child(1){
+
+#table-section h3:nth-child(1) {
     font-size: 1.5vw;
     width: 90%;
     margin: 2vw auto;
     line-height: 2vw;
 }
-#table-section p:nth-child(1){
+
+#table-section p:nth-child(1) {
     width: 100%;
     margin: 2vw auto;
 }
-.table{
+
+.table {
     margin-top: 5vw;
 }
 
-.td-table{
-    width: calc( calc(100% / 4));
+.td-table {
+    width: calc(calc(100% / 4));
     border-bottom: 1px solid white;
     padding: 1vw;
 }
-.tr-table .num::after{
+
+.tr-table .num::after {
     content: "+";
     font-size: 1.3vw;
     font-weight: lighter;
     vertical-align: top;
     margin-left: 0.2vw;
 }
-.tr-table:nth-child(2) .td-table{
+
+.tr-table:nth-child(2) .td-table {
     border-bottom: none;
 }
-.td-table:not(:last-child){
+
+.td-table:not(:last-child) {
     border-right: 1px solid white;
 }
 
-.td-table > img{
+.td-table>img {
     height: 1.8vw;
 }
-.td-table span{
+
+.td-table span {
     display: block;
 }
-.td-table span:last-child{
+
+.td-table span:last-child {
     font-size: 0.6vw;
 }
-.num{
+
+.num {
     font-size: 2vw;
     margin: 1vw;
     font-weight: bold;
 }
 
-.first-brands-row{
+.first-brands-row {
     text-align: left;
     width: 80%;
     margin: 3vw auto;
     height: 25%
 }
-.left-f-brands-row span{
+
+.left-f-brands-row span {
     font-size: 2vw;
     font-weight: bold;
     display: block;
     margin-bottom: 2.8vw;
 }
-.left-f-brands-row{
+
+.left-f-brands-row {
     width: 20%;
     line-height: 1.5vw;
 }
 
-.right-f-brands-row{
+.right-f-brands-row {
     width: 80%;
     margin-left: 40%;
 }
-.right-f-brands-row li{
+
+.right-f-brands-row li {
     width: 16%;
     margin: 0vw 0.5vw;
 }
-.right-f-brands-row img{
-    width:100%;
+
+.right-f-brands-row img {
+    width: 100%;
     vertical-align: middle;
 }
-.second-brands-row{
+
+.second-brands-row {
     padding: 1vw 0 2.8vw 0;
     width: 100%;
     height: 75%;
 }
-.left-s-brands-row{
+
+.left-s-brands-row {
     width: 45%;
     height: 100%;
     padding-left: 2vw;
     line-height: 1.6vw;
 }
-.left-s-brands-row > h3{
+
+.left-s-brands-row>h3 {
     font-size: 1.6vw;
     font-weight: bold;
     width: 85%;
     line-height: 2vw;
     margin-top: 2.5vw;
 }
-.left-s-brands-row > *:not(:first-child){
+
+.left-s-brands-row>*:not(:first-child) {
     margin-top: 2vw;
     display: block;
 }
-.left-s-brands-row > a{
+
+.left-s-brands-row>a {
     width: 35%;
     margin-left: 0;
 }
-.left-s-brands-row > p:last-child{
+
+.left-s-brands-row>p:last-child {
     font-size: 0.8vw;
 }
+
 .right-s-brands-row {
     height: 100%;
 }
-.right-s-brands-row img{
+
+.right-s-brands-row img {
     width: 17vw;
     margin-right: 2vw;
 }
-footer{
+
+footer {
     background-color: #2d3e50;
     width: 100%;
     height: auto;
     color: #cbd6e2;
 }
-footer > div:first-child{
+
+footer>div:first-child {
     height: 100%;
 }
-.f-row-footer{
+
+.f-row-footer {
     height: 60%;
     width: 100%;
     padding: 2.5vw 0;
 }
-.f-row-footer > ul{
-    width: calc( calc( 100% / 4 ) -2vw) ;
+
+.f-row-footer>ul {
+    width: calc(calc(100% / 4) -2vw);
     display: block;
 }
-footer .f-row-footer li{
+
+footer .f-row-footer li {
     text-align: left;
     width: 100%;
     margin: 0vw 3vw;
     display: block;
 }
-.f-row-footer li:first-child{
+
+.f-row-footer li:first-child {
     line-height: 3vw;
     font-size: 0.8vw;
     font-weight: bold;
 }
-footer .f-row-footer li:not(:first-child){
+
+footer .f-row-footer li:not(:first-child) {
     display: block;
     height: 1%;
     line-height: 2vw;
     font-weight: normal;
     font-size: 0.7vw;
 }
-.f-row-footer li > a{
+
+.f-row-footer li>a {
     background-color: #cbd6e2;
     display: block;
     color: black;
@@ -440,37 +505,45 @@ footer .f-row-footer li:not(:first-child){
     font-weight: normal;
 }
 
-.f-row-footer li:last-child{
+.f-row-footer li:last-child {
     display: inline-block;
 }
 
-.f-row-footer li:last-child > ul > li{
+.f-row-footer li:last-child>ul>li {
     width: calc(100%/8);
     margin: 0;
     display: inline-block;
 }
-.s-row-footer{
+
+#socials-list a {
+    background-color: transparent;
+    color: #cbd6e2;
+}
+
+.s-row-footer {
     height: 4vw;
 }
-#languages-list{
+
+#languages-list {
     text-align: center;
     display: block;
 }
 
-#languages-list a{
+#languages-list a {
     width: 50%;
     color: #cbd6e2;
     margin: 0.5vw;
-} 
-.footer hr{
+}
+
+.footer hr {
     width: 100%;
 }
 
-.left-s-row-footer{
+.left-s-row-footer {
     padding: 2vw 0;
 }
 
-.right-s-row-footer a{
+.right-s-row-footer a {
     margin-right: 1vw;
     font-size: 1.5vw;
 }
